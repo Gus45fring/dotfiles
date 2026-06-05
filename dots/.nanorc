@@ -1,0 +1,35 @@
+
+
+#autocomplete brackets
+bind M-8 "()" main
+bind M-[ "[]" main
+bind M-< "<>" main
+bind M-" """" main
+
+# custom stuff
+set indicator 
+set mouse
+set tabsize 2
+set autoindent
+set quickblank
+set brackets ""')>]}"
+set matchbrackets "(<[{)>]}"
+set softwrap
+
+# syntax highlight
+
+include "/usr/share/nano/*.nanorc"
+include "/usr/share/nano-syntax-highlighting/*nanorc"
+include "/usr/share/nano/json.nanorc"
+
+# colors
+#it's actually so goofy that black is really black so you just cant see it but it's there
+
+set titlecolor bold,purple
+set promptcolor purple
+set keycolor purple
+set errorcolor bold,white,red
+set statuscolor bold,purple
+set scrollercolor purple,black
+
+
