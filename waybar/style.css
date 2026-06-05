@@ -1,0 +1,74 @@
+/* global */
+* {
+  font-family: "Symbols Nerd Font Mono", "FontAwesome", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  color: #fff;
+	padding: 0;
+	margin: 1px;
+	margin-bottom: 0;
+}
+
+/* tooltip */
+tooltip, .tooltip {
+	background: linear-gradient(135deg,rgba(60, 9, 108, 1) 0%, rgba(123, 44, 191, 1) 100%);
+	border-radius: 20px;
+	padding: 6px 8px;
+	box-shadow: none;
+}
+
+window#waybar {
+	background: rgba(0,0,0,0);
+	/*background: radial-gradient(circle,rgba(60, 9, 108, 0.53) 0%, rgba(123, 44, 191, 0) 64%);
+  border-radius: 16px;
+  border: none;
+  padding: 0;
+  margin: 0;*/
+}
+
+#custom-power,
+#workspaces,
+#mpris,
+#window,
+#disk,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#clock,
+#tray
+
+#custom-power {
+	background: radial-gradient(circle,rgba(60, 9, 108, 0.5) 0%, rgba(123, 44, 191, 0.5) 50%, rgba(157, 78, 221, 0.5) 100%);
+	color: #fff;
+	border-radius: 20px;
+	padding: 0px 15px;
+	border: 1px solid #10002b;
+}
+
+
+menu {
+	border-radius: 15px;
+	background: rgba(255,0,0,0);
+	color: #000000;
+	padding: 5px 0px;
+}
+
+menuitem {
+	background: radial-gradient(circle,rgba(60, 9, 108, 0.5) 0%, rgba(123, 44, 191, 0.5) 50%, rgba(157, 78, 221, 0.5) 100%);
+	border-radius: 15px;
+	padding: 5px 0px;
+	border: 1px solid #000;
+	margin-top: 2px;
+}
+
+#workspaces button:hover {
+	background: rgba(0,0,0,0.2);
+	border: 1px solid #c77dff;
+	box-shadow: none;
+}
+
+#workspace button.focused, #workspaces button.active {
+	background: radial-gradient(circle,rgba(60, 9, 108, 0.5) 0%, rgba(123, 44, 191, 0.5) 50%, rgba(157, 78, 221, 0.5) 100%);
+	border: 1px solid #c77dff;
+	border-radius: 5px;
+}
