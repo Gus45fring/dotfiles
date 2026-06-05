@@ -8,5 +8,5 @@ my dotfiles
 - fastfetch
 - imv
 - nano
-- bash autocomplete
+- bash-autocomplete
 - cowsay
