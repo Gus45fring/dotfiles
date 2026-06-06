@@ -1,8 +1,6 @@
 [options]
-# Suppress the overlay text completely
 overlay = false
 
-# Set a clean window title (just the file name)
 title_text = $(basename "$imv_current_file")
 
 [binds]
