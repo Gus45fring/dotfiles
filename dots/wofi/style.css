@@ -1,0 +1,42 @@
+
+#window {
+  margin: 5px;
+	height: 50vh;
+	border: 1px solid #7b2cbf;
+	border-radius: 15px;
+  background-color: rgba(238, 208, 255, 0.5);
+}
+
+#input {
+  margin: 5px;
+  border-radius: 15px;
+  background-color: rgba(224, 170, 255, 0.5);
+  color:black;
+}
+
+#entry {
+  margin: 2px 25px;
+	border-radius: 15px;
+	transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+#entry:selected {
+  background-color: #9d4edd;
+	padding-left: 18px;
+	border-style: none;
+  transition: all 0.15s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+#img {
+	margin: 5px;
+}
+
+#scroll {
+	padding: 0px 0px 5px 0px;
+}
+
+#expander-box {
+  border-radius: 15px;
+	background-color: #7b2cbf;
+	color: white;
+}
